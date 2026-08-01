@@ -10,14 +10,14 @@
 from unittest import case
 
 
-# age = int(input("Enter your age: "))
-# if age <18:
-#    print("You are a minor.")
-#    print("You are an adult.")  
-# elif age ==18:
-#    print("You just became an adult!")
-# else:
-#    print("You are an adult.")
+age = int(input("Enter your age: "))
+if age <18:
+   print("You are a minor.")
+   print("You are an adult.")  
+elif age ==18:
+   print("You just became an adult!")
+else:
+   print("You are an adult.")
 
 #syntax: match case condition
 #match value:
