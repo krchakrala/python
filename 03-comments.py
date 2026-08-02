@@ -17,7 +17,7 @@ Escape Sequences
 Escape sequences are used to include special characters in strings.
 '''
 
-""""
+"""
 Common     escape sequences:
 \n : Newline
 \t : Tab
