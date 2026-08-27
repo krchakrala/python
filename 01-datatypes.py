@@ -32,8 +32,8 @@ print(age)
 print(type(age))
 
 cgpa = 8.2
-print(cgpa)
-print(type(cgpa))
+print(cgpa) # 8.2
+print(type(cgpa)) # <class 'float'>
 
 name = "Harry"
 print(name)
@@ -92,4 +92,9 @@ b = int(input("Enter second number: "))
 # b = int(b)
 
 print("a and b value is: ", a + b)
+
+
+
+
+
 

@@ -7,8 +7,9 @@ b=10
 print(a + b)
 print(a - b)
 print(a * b)
-print(a / b)
-print(a // b)
+print(a / b) # float division
+print(a // b) # integer division
+print(a % b) # modulus operator
 
 #Comparision Operators
 print("Comparision Operators")
@@ -20,7 +21,7 @@ print(a != b)
 print("Assignment Operator")
 a = 32
 print(a)
-a+=3
+a+=3      # a=a+3
 print(a)
 a-=3
 print(a)

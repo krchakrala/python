@@ -6,7 +6,7 @@ for i in range(1, 11): #range function goes from 1 to (n-1) ie is 10 in this cas
     #print(i+2) #print the value of i+2 for each iteration of the loop
    
 for i in range(1, 11): 
-    print("6 x", i, "=", 6*i) #print the multiplication table of 5
+    print("6 x", i, "=", 6*i) #print the multiplication table of 6 from 1 to 10
 
 #Basic while loop
 i=1
@@ -30,7 +30,7 @@ while j<=k:
 
 #infinite loop
 i=1
-while False:  
+while True:  
     print(i)
     i=i+1
 
