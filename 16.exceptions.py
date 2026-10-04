@@ -79,6 +79,19 @@ except Exception:
     elif isinstance(t[1],ValueError):
         print("input value must be integer")
 
-
-
+#using else block with try except
+try:
+    file=open("test.txt","r")
+    content=file.read()
+except FileNotFoundError:
+    print("File not found, please check the file name and path")
+else:
+    print("File read successfully, so else block executed")
+    print(f"File contents: {content}")
+finally:
+    print("Finally block executed, closing the file if it was opened")
+    try:
+        file.close()
+    except NameError:
+        print("File was not opened, so cannot close it.")
 
