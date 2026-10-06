@@ -145,5 +145,5 @@ assert value.isdigit(),"not integer value" #AssertionError: not integer value
 value=int(value)
 print(value)
 
-
+*args  **kwargs
 
