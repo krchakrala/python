@@ -107,9 +107,6 @@ if not os.path.exists("docs/Project/Data/Input"):
 import os
 os.rmdir("docs/PythonFiles")
 
-import shutil
-shutil.rmtree("docs/Project")
-
 #Removing a file using os.remove() if file exists
 import os
 if os.path.exists("docs/newfile7.txt"):
@@ -126,5 +123,4 @@ else:
 #os.path.dirname()	Get directory
 #os.path.splitext()	Separate extension
 #os.path.getsize()	Get file size
-
 
