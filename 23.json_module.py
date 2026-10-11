@@ -1,0 +1,30 @@
+
+
+import datetime
+dt=datetime.datetime.today()
+print(dt)
+print(dt.strftime("%a"))
+print(dt.strftime("%A"))
+print(dt.strftime("%d"))
+print(dt.strftime("%d %A"))
+print(dt.strftime("%b"))
+print(dt.strftime("%B"))
+print(dt.strftime("%m"))
+print(dt.strftime("%A %B %d"))
+print(dt.strftime("%y"))
+print(dt.strftime("%Y"))
+print(dt.strftime("%A %B %d %Y"))
+print(dt.strftime("%H"))
+print(dt.strftime("%M"))
+print(dt.strftime("%S"))
+print(dt.strftime("%H:%M:%S %p"))
+print(dt.strftime("%w"))
+print(dt.strftime("%z"))
+print(dt.strftime("%j"))
+print(dt.strftime("%U"))
+print(dt.strftime("%c"))
+print(dt.strftime("%X"))
+a=10
+print(f'{a:d},{a:o},{a:x},{a:b}')
+print("%d%o%x"%(a,a,a))
+
